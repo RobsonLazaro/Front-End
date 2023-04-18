@@ -1,3 +1,39 @@
+img{
+    max-height: 250px;
+    border-radius: 25%;
+}
+
 main{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.devJr > h1{
+    font-size: 45px;
+}
+
+.devJr > p {
+    color: darkslategrey;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.picExp{
+    font-size: 45px;
+    color: lightgray;
+}
+
+.trabalhos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 25px;
+    background-color:aquamarine;
+}
+.descricao{
+    margin: 20px 0 50px 0;
+}
+.trabalhos > p{
+    margin: 15px 10px 0 0;
+    
 }
