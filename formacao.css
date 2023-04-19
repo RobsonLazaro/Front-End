@@ -1,0 +1,53 @@
+.formacao{
+    background-color: rgb(29, 27, 27);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.picForm{
+    margin: 100px auto ;
+    font-size: 50px;
+    color: black;
+    word-wrap: break-word;
+    width: 12rem;
+}
+
+.descricaoForm{
+    margin: 100px 0 50px 0;
+    color: grey;
+    width: 70%;
+}
+
+p > span {
+    color: whitesmoke;
+}
+
+.academico {
+    margin: 50px 0;
+    background-color: black;
+    width: 65%;
+    padding: 10px;
+}
+
+.graduacao{
+    padding-top: 20px;
+    color:whitesmoke;
+}
+
+#universidade{
+    padding-top: 20px;
+}
+
+.cursos{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+
+#intensivo, .idiomas > p {
+    margin: 10px 0;
+}
+
+.idiomas{
+    margin: 20px 0;
+}
