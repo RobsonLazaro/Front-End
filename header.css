@@ -17,4 +17,18 @@ a{
     text-decoration: none;
     color:black;
 }
+@media (max-width: 800px){
+    .menu{
+        display: block;
+    }
+    .menu > h2  {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .menu > nav{
+        text-align: center;
+        margin: auto;
+    }
 
+
+}
