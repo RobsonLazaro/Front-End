@@ -1,4 +1,4 @@
-.formacao{
+#formacao{
     background-color: rgb(29, 27, 27);
     display: grid;
     grid-template-columns: 1fr 2fr;
