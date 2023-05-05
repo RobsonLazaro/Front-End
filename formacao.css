@@ -54,7 +54,7 @@ p > span {
 
 
 @media (max-width: 800px) {
-    .formacao{
+    #formacao{
         display: block;
     }
     .picForm{
