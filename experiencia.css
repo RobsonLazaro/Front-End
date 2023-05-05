@@ -3,7 +3,7 @@
     color: lightgray;
     word-wrap: break-word;
     width: 12rem;
-    margin-top: 10%;
+    margin: auto;
 }
 
 .trabalhos{
@@ -26,12 +26,11 @@
     font-weight: bold;
 }
 
-
-
 #experiencia  {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
+
 @media (max-width: 800px){
     #experiencia{
         display: block;
