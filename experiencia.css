@@ -1,10 +1,9 @@
-
 .picExp{
     font-size: 61px;
     color: lightgray;
     word-wrap: break-word;
-    width: 16%;
-    margin: auto;
+    width: 12rem;
+    margin-top: 10%;
 }
 
 .trabalhos{
@@ -20,13 +19,27 @@
     width: 70%;
 }
 .trabalhos > p{
-    margin: 15px 10px 0 0;
+    margin: 15px 15px 0 0;
 }
+.descricao > span{
+    color: black;
+    font-weight: bold;
+}
+
+
 
 #experiencia  {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 @media (max-width: 800px){
-    
+    #experiencia{
+        display: block;
+    }
+
+    .picExp{
+        width: 100%;
+        font-size: 25px;
+        color: black;
+    }
 }
