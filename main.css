@@ -1,12 +1,13 @@
 img{
     max-height: 250px;
     border-radius: 25%;
+    margin-right: 50px;
 }
 
 .principal{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 
@@ -26,7 +27,10 @@ img{
         grid-template-columns: 1fr 1fr;
     }
     img{
-        max-height: 17rem;
-        margin-right: 20px;
+        max-height: 200px;
+        margin-right: 10%;
+    }
+    .devJr > h1 {
+        font-size: 35px;
     }
 }
